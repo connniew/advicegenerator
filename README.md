@@ -20,4 +20,4 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - VanillaJS
-- Used FavQs API for quotes
+- Used AdviceSlip API for quotes

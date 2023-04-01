@@ -20,17 +20,13 @@ function displayDivider() {
 }
 
 function getAdvice() {
-    // const url = "https://api.adviceslip.com/advice";
-    const url = "https://favqs.com/api/qotd";
+    const url = "https://api.adviceslip.com/advice";
 
     fetch(url)
         .then(res => res.json())
         .then(data => {
-            // For original API https://api.adviceslip.com/advice
-            // const quote = data.slip.advice;
-            // const adviceID = data.slip.id;
-            const quote = data.quote.body;
-            const adviceID = data.quote.id;
+            const quote = data.slip.advice;
+            const adviceID = data.slip.id;
             document.querySelector(".advice-num").innerHTML = adviceID;
             document.querySelector(".quote").innerHTML = '"' + quote + '"';
         })
