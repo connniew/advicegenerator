@@ -12,6 +12,17 @@ Users should be able to:
 
 ### Screenshots for desktop, tablet, and mobile
 
+Desktop
+
+<img src="https://github.com/hiiamcon/advicegenerator/blob/main/images/ag-desktop.png" width="500" />
+
+Tablet
+
+<img src="https://github.com/hiiamcon/advicegenerator/blob/main/images/ag-tablet.png" width="400" />
+
+Mobile
+
+<img src="https://github.com/hiiamcon/advicegenerator/blob/main/images/ag-mobile.png" width="300" />
 
 ### Built with
 
